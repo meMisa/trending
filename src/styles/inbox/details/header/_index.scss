@@ -1,0 +1,63 @@
+.details-header-common {
+  font-size: 12px;
+  background: inherit;
+
+  .ant-card-actions {
+    width: fit-content;
+    background: inherit;
+    border: none;
+    .ant-avatar {
+      background: $white;
+      border: 1px solid rgba(0, 5, 51, 0.1);
+    }
+  }
+}
+
+.conversation-title-header-avatar {
+  background: $background-icons;
+}
+
+.details-header-divider {
+  height: auto;
+  margin: 1rem 0 1rem 0;
+}
+
+.customer-card-wrapper {
+  padding: 1rem;
+  margin-left: 0.5rem;
+
+  .ant-card-actions > li {
+    width: auto !important;
+    margin: 4px 2px 2px 2px;
+    background: $white;
+    border: 1px solid rgba(0, 5, 51, 0.1);
+    border-radius: 2px;
+    padding-top: 5px;
+  }
+
+  .ant-avatar,
+  .ant-avatar-icon,
+  .anticon {
+    color: $close-status-icon !important;
+  }
+
+  .user-avatar-background {
+    background: $user-avatar-background;
+  }
+}
+
+.journey-card-wrapper,
+.conversation-card-wrapper {
+  .ant-steps-item-description {
+    font-size: 12px;
+  }
+
+  .ant-steps-item-content {
+    min-height: 40px !important;
+  }
+
+  .conversation-footer-header {
+    margin-left: 1rem;
+    width: max-content;
+  }
+}

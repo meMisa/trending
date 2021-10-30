@@ -1,0 +1,16 @@
+.details-content-container {
+  background: $white;
+
+  .details-content-header {
+    font-size: 12px;
+  }
+
+  .support-icon-color {
+    color: rgba(0, 0, 0, 0.45);
+  }
+
+  .user-avatar-background {
+    background: $user-avatar-background;
+    color: $close-status-icon !important;
+  }
+}

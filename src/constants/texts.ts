@@ -1,0 +1,17 @@
+export const HEADER = 'Header';
+export const CONTENT = 'Content';
+export const FOOTER = 'Footer';
+export const USER_FORM = 'User GeneralForm';
+export const THIS_FIELD_IS_REQUIRED = 'this field is required';
+export const LOAD_FORM = 'Load form';
+export const SUBMIT = 'Submit';
+export const INTRACTIONS = 'Intractions';
+export const SUPPORT = 'Support';
+export const ATLAS = 'Atlas';
+export const INBOX = '  Inbox  ';
+export const CUSTOMERS = 'Customers';
+export const STATISTICS = 'Statistics';
+export const REPLY_IN = 'Reply in';
+export const CONVERSATION = 'Conversation';
+export const CUSTOMER = 'Customer';
+export const CUSTOMER_JOURNEY = 'Customer Journey';

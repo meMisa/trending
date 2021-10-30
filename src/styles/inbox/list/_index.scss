@@ -1,0 +1,25 @@
+.close-status {
+  color: $close-status-icon;
+}
+
+.intractions {
+  margin-right: -0.7rem;
+  z-index: 1;
+}
+
+.reply-in-hour {
+  color: $reply-in-hour;
+  border-color: $reply-in-hour;
+  background: $white;
+}
+
+.reply-in-minute {
+  color: $reply-in-minute;
+  border-color: $reply-in-minute;
+  background: $white;
+}
+
+.deposit-wrapper {
+  color: #000533;
+  opacity: 0.5;
+}

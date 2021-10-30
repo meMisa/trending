@@ -1,0 +1,42 @@
+.step-wrapper {
+  .ant-avatar {
+    display: block !important;
+    overflow: inherit !important;
+  }
+
+  .ant-steps-item-tail {
+    padding: 35px 0 3px !important;
+
+    &::after {
+      background: $box-shadow-gray !important;
+    }
+  }
+}
+.mail-icon,
+.open-status {
+  color: $mail-icon;
+}
+
+.mail-icon-background {
+  background: $mail-icon-background;
+}
+
+.call-icon {
+  color: $call-icon;
+}
+
+.call-icon-background {
+  background: $call-icon-background;
+}
+
+.comment-icon-background {
+  background: $comment-icon-background;
+}
+
+.comment-icon {
+  color: $comment-icon-small;
+}
+
+.close-status {
+  color: $close-status-icon;
+}

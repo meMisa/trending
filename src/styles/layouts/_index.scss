@@ -1,0 +1,32 @@
+.ant-layout {
+  background: $body-background;
+}
+.ant-layout-header,
+.ant-layout-footer {
+  color: $black;
+  background: $body-background !important;
+}
+
+[data-theme='dark'] .ant-layout-header {
+  background: #6aa0c7;
+}
+
+[data-theme='dark'] .ant-layout-footer {
+  background: #6aa0c7;
+}
+
+.ant-layout-footer {
+  line-height: 1.5;
+}
+
+.ant-layout-content {
+  min-height: 800px;
+  color: #fff;
+  line-height: 120px;
+  //background: rgba(202 226 243);
+  padding: 1rem;
+}
+
+> .code-box-demo > .ant-layout + .ant-layout {
+  margin-top: 40px;
+}

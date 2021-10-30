@@ -1,0 +1,46 @@
+.inbox-container {
+  .ant-tag-has-color {
+    color: inherit;
+  }
+
+  .ant-list-item-meta-avatar {
+    margin-right: 0 !important;
+  }
+}
+
+.list-container {
+  border-radius: 10px !important;
+  padding: 8px 16px 0 !important;
+}
+
+.list-not-selected {
+  width: 100%;
+}
+
+.list-selected {
+  width: 40%;
+}
+
+.selected-row-details {
+  background: #f7f7f9;
+  width: -webkit-fill-available;
+  margin-top: -4rem;
+}
+
+.details-header-wrapper {
+  background: linear-gradient(0deg, #fafbfc, #fafbfc), #ffffff;
+  border: 1px solid #e8ecee;
+
+  .ant-avatar,
+  .ant-avatar-icon {
+    color: $close-status-icon;
+  }
+}
+
+.open-status-row {
+  background: $white;
+}
+
+.close-status-row {
+  background: $light-gray;
+}

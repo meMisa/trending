@@ -1,0 +1,47 @@
+@import 'fonts';
+@import 'colors';
+@import 'reset';
+@import 'variables';
+@import 'flex';
+@import 'global-classes';
+@import 'margin-padding';
+@import 'scroll';
+
+// import pages and their components.
+@import 'layouts';
+@import 'inbox';
+@import 'inbox/common';
+@import 'inbox/list';
+@import 'inbox/details/header';
+@import 'inbox/details/content';
+@import 'general/tabPanel';
+@import 'general/globalSearch';
+
+// set rem to 10px
+html {
+  @media (max-width: $large-desktop) and (min-width: $desktop) {
+    font-size: 80%;
+  }
+
+  @media (max-width: $desktop-m) and (min-width: $tablet) {
+    font-size: 75%;
+  }
+
+  @media (max-width: $tablet-m) {
+    font-size: 65%;
+  }
+}
+body {
+  margin: 0;
+  background: $body-background;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

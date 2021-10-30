@@ -1,0 +1,167 @@
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.shadow {
+  transition: 0.2s all;
+  box-shadow: 0 2px 3px $border-gray;
+
+  &:active {
+    box-shadow: 0 1px 1px $border-gray;
+  }
+}
+
+@mixin ripple($hover-color, $active-color) {
+  background-position: center;
+  transition: background 0.5s;
+
+  &:hover {
+    background: $hover-color
+      radial-gradient(circle, transparent 1%, $hover-color 1%) center/15000%;
+  }
+
+  &:active {
+    background-color: $active-color;
+    background-size: 100%;
+    transition: background 0s;
+  }
+}
+
+.b-radius {
+  border-radius: $radius-size;
+}
+
+.w-bold {
+  font-weight: bold;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.text {
+  &-right {
+    text-align: right;
+  }
+
+  &-left {
+    text-align: left;
+  }
+
+  &-center {
+    text-align: center;
+  }
+
+  &-gray {
+    color: $text-gray;
+  }
+
+  &-white {
+    color: $white;
+  }
+
+  &-dark {
+    color: $text-dark;
+  }
+
+  &-black {
+    color: $black;
+  }
+
+  &-red {
+    color: $primary4;
+  }
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.v-middle {
+  vertical-align: middle;
+}
+
+.block {
+  display: block;
+}
+
+.text-decoration-underline {
+  text-decoration: underline;
+}
+
+.label-font-size {
+  font-size: $font-size-contact-us;
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.none {
+  display: none !important;
+}
+
+.border-none {
+  border: none;
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+.visibility-hidden {
+  visibility: hidden;
+}
+
+.visibility-visible {
+  visibility: visible;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden !important;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.selected {
+  color: $white !important;
+  background-color: $primary2 !important;
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.overflow-inherit {
+  overflow: inherit !important;
+}
+
+.width-max-content {
+  width: max-content;
+}
+.height-auto {
+  height: auto;
+}
